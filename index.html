@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS';
+            background-color: rgb(136, 158, 247);
+        }
+
+        .myClass {
+            background-color: rgb(0, 0, 84);
+            color: white;
+            max-width: 80vw;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 5vh;
+            justify-content: center;
+            box-shadow: 10px 10px 10px black;
+        }
+        .header {            
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            justify-content: center;
+        }
+        .content {            
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            justify-content: center;
+        }
+        @media screen and (max-width: 480px) {
+            .content {
+                max-width: 90%;
+            }
+        }
+        .myPhoto {
+            padding-top: 10%;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myClass">
+        <div class="header">
+            <img class = "myPhoto" src="Sachin.jpeg" alt="">
+            <h2>Hello, I am Sachin</h2>
+        </div>
+        <div class="content">
+            <p>I am a student who likes to play Football and keep updated with sports.</p>
+            <p>I study at St. Xavier's High School and live in Bhubaneswar.</p>
+        </div>
+    </div>
+</body>
+
+</html>
